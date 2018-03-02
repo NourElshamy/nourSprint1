@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5a9834bf7aa1c53d50a483ca"},"name":"apple","price":19,"createdAt":{"$date":"2018-03-01T17:13:35.540Z"},"__v":0,"updatedAt":{"$date":"2018-03-01T20:54:44.214Z"}}
+{"_id":{"$oid":"5a9860d619833e256812dc0b"},"name":"coffe","price":30,"createdAt":{"$date":"2018-03-01T20:21:42.244Z"},"__v":0}
+{"_id":{"$oid":"5a9868a319833e256812dc0c"},"name":"chocolate","price":10,"createdAt":{"$date":"2018-03-01T20:54:59.783Z"},"__v":0}
+{"_id":{"$oid":"5a9868ce19833e256812dc0e"},"name":"juice","price":5,"createdAt":{"$date":"2018-03-01T20:55:42.886Z"},"__v":0}
+{"_id":{"$oid":"5a9868e619833e256812dc0f"},"name":"milk","price":5,"createdAt":{"$date":"2018-03-01T20:56:06.383Z"},"__v":0}

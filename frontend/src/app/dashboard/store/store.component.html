@@ -1,0 +1,32 @@
+<h1>View Products</h1>
+<table class="table">
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Price</th>
+<th>Created At</th>
+<th>Updated At</th>
+<th>Seller Name</th></tr>
+<tr *ngFor="let product of products">
+  <td>{{ product._id }}</td>
+  <td>{{ product.name }}</td>
+  <td>{{ product.price }}</td>
+  <td>{{ product.createdAt }}</td>
+  <td>{{ product.updatedAt }}</td>
+  <td>{{ product.SellerName }}</td>
+  <td><button type = "button" class = "btn btn-secondary"(click)="deleteProduct(product)">Delete</button></td>
+  <td>
+      <h5>Enter Name:</h5>
+      <form> <input #name type ="text"></form>
+      <h5>Enter Price:</h5>
+      <form> <input #price type ="Number"></form>
+    <button type = "button" class = "btn btn-secondary"(click)="updateProduct(product,name.value,price.value)">Edit</button></td>
+</tr>
+</table>
+
+ 
+  <h5>Enter Name:</h5>
+  <form> <input #name type ="text"></form>
+  <h5>Enter Price:</h5>
+  <form> <input #price type ="text"></form>
+  <button type ="button" class = "btn btn-secondary"(click)="createProduct(name.value,price.value)">Add Product</button>
